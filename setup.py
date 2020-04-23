@@ -23,12 +23,6 @@ setup(
 	license = 'BSD 3-Clause License',
 	author = "Timothy Vales",
 	author_email = "timothyv@xilinx.com",
-
-	include_package_data = True,
-	packages = ['PmodHygro'],
-	package_data = {
-	'' : ['*.bit','*.tcl','*.py','*.bin','*.txt', '*.cpp', '*.h', '*.sh'],
-	},
 	description = "Pynq Z2 board and Pmod Hygro",
     install_requires=[
         'pynq', 'matplotlib'
