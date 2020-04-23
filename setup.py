@@ -41,10 +41,4 @@ WORK_DIR = os.path.dirname(os.path.realpath(__file__))
 #shutil is a lib for working with files or collection of files
 #copy2 copies file from first arg to second arg AND preserves metadata
 #takes files from working directory and copies it target dir
-shutil.copy2(WORK_DIR + "/PmodHygro.ipynb","/PmodHygro")
-
-#if there exists a file called "PmodHygro" already in the Pynq Jupyter Notebook dir, delete it and redownload it 
-if 'install' in sys.argv:
-    if os.path.isdir(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/PmodHygro/"):
-        shutil.rmtree(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/PmodHygro/")
-    shutil.copytree(WORK_DIR + "/PmodHygro.ipynb/",os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/PmodHygro/")
+shutil.copy2(WORK_DIR + "/PmodHygro.ipynb",os.environ["PYNQ_JUPYTER_NOTEBOOKS"])
