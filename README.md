@@ -8,7 +8,7 @@ On the right side of the screen, click on "New", and open a new terminal. Pip in
 sudo pip3 install git+https://github.com/TimothyVales/PmodHygro.git
 ```
 
-## Instrument Maintenance
+## Motivation for this Project
 One of the most important aspects of playing an instrument, besides actually making music, is taking proper care of your instrument. After playing the viola for almost 12 years, I've realized that my instrument played best when I made sure to control as many environmental variables as I could. Two of those variables, humidity and temperature, affect almost every aspect of an instrument's performance (tone, color, etc), and will be the driving force behind this project. 
 
 First, I need a way to monitor the humidity and temperature, not only in my apartment, but also within the instrument case to make sure that they are staying within acceptable ranges. I use the Pynq-Z2 because of its Pmod ports, and because of its, relatively, small size. Second, I need a sensor that will grab this specific type of information, and for that, I found the Pmod Hygro. This small sensor contains a TI HDC1080, which will measure the relative temperature and humidity of its environment. Lastly, I need a way to display this information in real time to watch trends as the day goes by, and to see any anomalies that may need remedying immediately. 
