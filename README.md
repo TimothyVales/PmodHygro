@@ -27,7 +27,7 @@ Wait for the process to finish and validate, then, safely, eject the SD card fro
 ![SD Card Location](https://github.com/TimothyVales/PmodHygro/blob/master/SD_Card.jpg)
 
 Connect the microUSB and ethernet cables from your board to your laptop. 
-Make sure everything is connected properly, and turn on the board. After a couple of seconds, open any web browser (I use Google Chrome), and type in "pynq:9090". This will open up the Jupyter Notebook. 
+Make sure everything is connected properly, and turn on the board. After a couple of seconds, open any web browser (I use Google Chrome), and type in "pynq:9090". This will open up the Jupyter Notebook. Use the password xilinx, if asked.
 
 ![Jupyter NB](https://github.com/TimothyVales/PmodHygro/blob/master/JupyterNB.JPG)
 
