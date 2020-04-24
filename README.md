@@ -22,8 +22,9 @@ SD_Card.jpg
 SD Card Slot Location
 
 Connect the microUSB and ethernet cables from your board to your laptop. 
-Make sure everything is connected properly, and turn on the board. After a couple of seconds, open any web browser (I sue Google Chrome), and type in "pynq:9090". This will open up the Jupyter Notebook. 
-JupyterNB.JPG
+Make sure everything is connected properly, and turn on the board. After a couple of seconds, open any web browser (I use Google Chrome), and type in "pynq:9090". This will open up the Jupyter Notebook. 
+
+![Jupyter NB](https://github.com/TimothyVales/PmodHygro/blob/master/JupyterNB.JPG)
 Jupyter Notebook Home Page
 
 ## Power of Pip 
