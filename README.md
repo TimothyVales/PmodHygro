@@ -18,7 +18,7 @@ Balena Etcher UI
 
 Wait for the process to finish and validate, then, safely, eject the SD card from your laptop, and insert the micro SD card onto the Pynq-Z2 board as shown. 
 
-SD_Card.jpg
+![SD Card Location](https://github.com/TimothyVales/PmodHygro/blob/master/SD_Card.jpg)
 SD Card Slot Location
 
 Connect the microUSB and ethernet cables from your board to your laptop. 
