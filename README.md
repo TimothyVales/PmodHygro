@@ -21,18 +21,15 @@ Go to the Pynq website, pynq.io, and grab the pynq v2.5 for the Pynq-Z2 board un
 Using Balena Etcher, write the pynqv2.5 image onto the SD card in your SD port.
 
 ![Balena UI](https://github.com/TimothyVales/PmodHygro/blob/master/Balena.JPG)
-Balena Etcher UI
 
 Wait for the process to finish and validate, then, safely, eject the SD card from your laptop, and insert the micro SD card onto the Pynq-Z2 board as shown. 
 
 ![SD Card Location](https://github.com/TimothyVales/PmodHygro/blob/master/SD_Card.jpg)
-SD Card Slot Location
 
 Connect the microUSB and ethernet cables from your board to your laptop. 
 Make sure everything is connected properly, and turn on the board. After a couple of seconds, open any web browser (I use Google Chrome), and type in "pynq:9090". This will open up the Jupyter Notebook. 
 
 ![Jupyter NB](https://github.com/TimothyVales/PmodHygro/blob/master/JupyterNB.JPG)
-Jupyter Notebook Home Page
 
 ## How the Code Works
 To fully utilize Jupyter Notebook, I have documented every aspect of the aspect using Jupyter Notebooks Markup feature. I will explain some things in this section that would be better explained here than on the notebook itself. 
@@ -45,10 +42,8 @@ How to Setup Hardware
 Insert the Pmod Hygro into the lower row of Pmod A as seen in these pictures! 
 
 ![Pmod Top](https://github.com/TimothyVales/PmodHygro/blob/master/Pmod_top.jpg)
-Location of PmodA on Pnyq Z2 Board
 
 ![Pmod Side](https://github.com/TimothyVales/PmodHygro/blob/master/Pmod_side.JPG)
-Where I placed my Pmod Hygro
 
 The Pmod can, technically, be place on any Pmod Port and on any row, but for this project and for how the code is written, I placed mine this way. 
  
