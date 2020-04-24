@@ -10,7 +10,7 @@ I hope that this project can serve as a thorough introduction on how to get Pynq
 Go to the Pynq website, pynq.io, and grab the pynq v2.5 for the Pynq-Z2 board under the "Boards" tab. 
 Using Balena Etcher, write the pynqv2.5 image onto the SD card in your SD port.
 
-![Balena UI](PmodHygro/Balena.jpg) <!-- .element height="50%" width="50%" -->
+![Balena UI](PmodHygro/Balena.JPG) <!-- .element height="50%" width="50%" -->
 Balena Etcher UI
 
 Wait for the process to finish and validate, then, safely, eject the SD card from your laptop, and insert the micro SD card onto the Pynq-Z2 board as shown. 
