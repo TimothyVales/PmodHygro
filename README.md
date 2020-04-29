@@ -32,9 +32,9 @@ Make sure everything is connected properly, and turn on the board. After a coupl
 ![Jupyter NB](https://github.com/TimothyVales/PmodHygro/blob/master/JupyterNB.JPG)
 
 ## How the Code Works
-To fully utilize Jupyter Notebook, I have documented every aspect of the aspect using Jupyter Notebooks Markup feature. I will explain some things in this section that would be better explained here than on the notebook itself. 
+To fully utilize Jupyter Notebook, I have documented every aspect of the project using Jupyter Notebook's Markup feature. I will explain some things in this section that would be better explained here than on the notebook itself. 
 To write and run your own code follow these steps:
-1) Click on the cell at the very top of the page
+1) Click on the cell at the top of the page
 2) Click "Run", and this will auto-increment which cell is selected to the next cell
 3) A cell is finished when there is a number in the bracket to the left of the code, so wait until after a cell is finished to run the code below it
 4) Continue doing this until you have compiled everything
