@@ -44,6 +44,6 @@ Insert the Pmod Hygro into the lower row of Pmod A as seen in these pictures!
 
 ![Pmod Side](https://github.com/TimothyVales/PmodHygro/blob/master/Pmod_side.JPG)
 
-The Pmod can, technically, be place on any Pmod Port and on any row, but for this project and for how the code is written, I placed mine this way. 
+The Pmod can, technically, be placed on any Pmod Port and on any row, but for this project and for how the code is written, I placed mine this way. 
  
 Good luck on using the Pynq-Z2, and I hope to see all your great projects! Leave a comment on what you think about this project, and if there are things I should change/work on for my next project! 
