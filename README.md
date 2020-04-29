@@ -1,7 +1,7 @@
 # PmodHygro
 
 ## Get Started
-If you already have your Jupyter Notebook opened follow these steps:
+If you already have your Jupyter Notebook opened, follow these steps:
 On the right side of the screen, click on "New", and open a new terminal. Pip install the repo containing the code from my github using this command. 
 
 ```sh
